@@ -1,0 +1,194 @@
+body {
+    background-color: white;
+	margin: 0 !important;
+}
+
+.home {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/* Object-Sans */
+
+@font-face {
+    font-family: 'Object Sans Slanted';
+    src: url('fonts/Object-Sans/ObjectSans-Slanted.woff2') format('woff2'),
+        url('fonts/Object-Sans/ObjectSans-Slanted.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Object Sans';
+    src: url('fonts/Object-Sans/ObjectSans-HeavySlanted.woff2') format('woff2'),
+        url('fonts/Object-Sans/ObjectSans-HeavySlanted.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Object Sans';
+    src: url('fonts/Object-Sans/ObjectSans-Medium.woff2') format('woff2'),
+        url('fonts/Object-Sans/ObjectSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Object Sans';
+    src: url('fonts/Object-Sans/ObjectSans-Regular.woff2') format('woff2'),
+        url('fonts/Object-Sans/ObjectSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Object Sans';
+    src: url('fonts/Object-Sans/ObjectSans-Light.woff2') format('woff2'),
+        url('fonts/Object-Sans/ObjectSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Object Sans';
+    src: url('fonts/Object-Sans/ObjectSans-Heavy.woff2') format('woff2'),
+        url('fonts/Object-Sans/ObjectSans-Heavy.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Object Sans';
+    src: url('fonts/Object-Sans/ObjectSans-Bold.woff2') format('woff2'),
+        url('fonts/Object-Sans/ObjectSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Object Sans';
+    src: url('fonts/Object-Sans/ObjectSans-Thin.woff2') format('woff2'),
+        url('fonts/Object-Sans/ObjectSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Canela */
+
+@font-face {
+    font-family: 'Canela';
+    src: url('fonts/Canela/Canela-BlackItalic.woff2') format('woff2'),
+        url('fonts/Canela/Canela-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('fonts/Canela/Canela-LightItalic.woff2') format('woff2'),
+        url('fonts/Canela/Canela-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('fonts/Canela/Canela-Light.woff2') format('woff2'),
+        url('fonts/Canela/Canela-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('fonts/Canela/Canela-RegularItalic.woff2') format('woff2'),
+        url('fonts/Canela/Canela-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('fonts/Canela/Canela-Black.woff2') format('woff2'),
+        url('fonts/Canela/Canela-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('fonts/Canela/Canela-Regular.woff2') format('woff2'),
+        url('fonts/Canela/Canela-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('fonts/Canela/Canela-Medium.woff2') format('woff2'),
+        url('fonts/Canela/Canela-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('fonts/Canela/Canela-Thin.woff2') format('woff2'),
+        url('fonts/Canela/Canela-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('fonts/Canela/Canela-ThinItalic.woff2') format('woff2'),
+        url('fonts/Canela/Canela-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('fonts/Canela/Canela-MediumItalic.woff2') format('woff2'),
+        url('fonts/Canela/Canela-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('fonts/Canela/Canela-Bold.woff2') format('woff2'),
+        url('fonts/Canela/Canela-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('fonts/Canela/Canela-BoldItalic.woff2') format('woff2'),
+        url('fonts/Canela/Canela-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}

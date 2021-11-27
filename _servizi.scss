@@ -1,0 +1,78 @@
+.servicesmain {
+    margin-left: 0;
+    p {
+        font-family: 'Object Sans', Georgia, serif;
+    }
+    h1 {
+        margin-left: 8vw !important;
+    }
+    .introservice {
+        margin: 0 20vw 0 8vw !important;
+        .end {
+            margin-top: 7vw;
+        }
+        .bold {
+            font-weight: 500;
+        }
+        p {
+            margin: 4vw 0;
+        }
+    }
+    .part {
+        margin-top: 15vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        h2 {
+            margin: 3vw 0 40vw 0 !important;
+        }
+        p {
+           margin: 0 20vw; 
+        }
+        h3 {
+            font-family: 'Canela', Georgia, serif;
+            font-weight: lighter;
+            font-size: 5vw;
+
+        }
+    }
+    .card {
+        box-shadow: 10px 10px #9a9a9a;
+        background-color: #FAFAFA;
+        color: #575655;
+        h3 {
+            text-align: center;
+            padding-top: 5vw;
+            font-family: 'Canela', Georgia, serif;
+            font-size: 4vw;
+            font-weight: lighter;
+        }
+        p {
+            font-family: 'Object Sans', Georgia, serif;
+            text-align: center;
+        }
+        .cardbutton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5vw 0;
+        }
+    }
+    .blackcontainer {
+        margin-top: 10vw;
+        background-color: #0C0B0B;
+        color: $border_form;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h2 {
+            font-family: 'Canela', Georgia, serif;
+        }
+        p {
+            color: white;
+            opacity: 50%;
+        }
+    }
+}

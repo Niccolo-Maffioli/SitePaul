@@ -1,0 +1,77 @@
+main {
+    h1 {
+        font-family: 'Canela', Georgia, serif;
+        font-size: 12vw;
+        font-weight: lighter;
+    }
+    h2 {
+        font-size: 12vw;
+        margin: 7vw 0 3vw 0;
+        font-family: 'Canela', Georgia, serif;
+        font-weight: lighter;
+    }
+    h4 {
+        font-family: 'Canela', Georgia, serif;
+        font-size: 3vw;
+        font-weight: lighter;
+    }
+    .red {
+        color: $color_txt_hover;
+    }
+    .prince {
+        h1 {
+            margin-bottom: 5vw;
+        }
+        p {
+            font-size: 2vw;
+            margin: 0 0 5vw 0;
+            font-family: "Canela", Georgia, serif;
+            font-weight: lighter;
+        }
+    }
+    .title {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        flex-direction: column;
+        h1 {
+            font-size: 12vw;
+            margin: 7vw 0 3vw 17vw;
+            font-family: 'Canela', Georgia, serif;
+            font-weight: lighter;
+        }
+        p {
+            font-size: 2vw;
+            margin: 0 0 3vw 0;
+            font-family: 'Canela', Georgia, serif;
+            font-weight: lighter;
+        }
+    }
+    .serandjob1 {
+        margin: 4vw 0 0 33vw;
+    }
+    .serandjob {
+        .ser {
+            margin-right: 2vw;
+        }
+        .job {
+            margin-left: 2vw;
+        }
+        a {
+            text-decoration: none;
+            color: $color_txt;
+            box-shadow: 0 2px 0 $color_txt_hover;
+            font-size: 1.5vw;
+            padding-bottom: 1.5vw;
+            font-family: 'Object Sans', Georgia, serif;
+        }
+        a:hover {
+            color: $color_txt_hover;
+            box-shadow: 0 4px 0 $color_txt_hover;
+        }
+    }
+}
+
+.mainhome {
+    margin-left: 8vw;
+}

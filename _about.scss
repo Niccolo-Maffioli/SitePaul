@@ -1,0 +1,219 @@
+.mainabout {
+    /* margin-right: 6rem; */
+    font-family: 'Object Sans', Georgia, serif;
+    .container-img-win {
+        display: flex;
+        flex-direction: column;
+        margin-top: 23.5vw;
+        font-size: 1.5vw;
+        .img-win-1 {
+            display: flex;
+            flex-direction: column;
+            img {
+                width: 55vw;
+                height: 35vw;
+            }
+            p {
+                margin: 1.2vw 0 0 0;
+                opacity: 50%;
+            } 
+            font-size: 1.5vw;
+        }
+        .img-win-2 {
+            display: flex;
+            flex-direction: column;
+            margin: 3.75vw 0 23.5vw 25vw;
+            img {
+                width: 55vw;
+                height: 35vw;
+            }
+            p {
+                margin: 1.2vw 0 0 0;
+                opacity: 50%;
+            } 
+        }
+    }
+    .container-pandimg {
+        display: flex;
+        margin: 6vw 6vw 6vw 6vw;
+        font-family: 'Object Sans', Georgia, serif;
+        line-height: 1.8vw;
+        .immagine {
+            height: 35vw;
+            width: 30vw;
+        }
+        p {
+            margin: 3vw 3vw 0 0;
+            font-size: 1.5vw;
+        }
+    }
+    .see {
+        margin-left: 6vw;
+    }
+    .sliderimg {
+        margin: 12vw 0 0 0 !important;
+        display: flex;
+        img {
+            width: 30vw;
+        }
+    }
+    .title1 {
+        h2 {
+            margin-left: 45vw;
+        }
+    }
+    .container0 {
+        display: flex;
+        font-family: 'Object Sans', Georgia, serif;
+        margin-left: 12vw;
+        .container1 {
+            p {
+                font-family: 'Object Sans', Georgia, serif;
+                color: $color_txt_hover;
+            }
+            .conth4span {
+                width: 19vw;
+                span {
+                    color: $color_txt_hover;
+                    margin-right: 1.2vw;
+                }
+            }
+        }
+        .container2 {
+            font-family: 'Object Sans', Georgia, serif;
+            display: flex;
+            flex-direction: column;
+            margin-left: 14.5vw;
+            img {
+                height: 10vw;
+                width: 17.5vw;
+            }
+            .loghi {
+                display: flex;
+            }
+            p {
+                font-size: 1.7vw;
+            }
+        }
+    }
+    .publick-speaking {
+        margin-bottom: 11vw;
+        h1 {
+            font-size: 12vw;
+            margin: 7vw 0 7vw 0;
+            font-family: 'Canela', Georgia, serif;
+            font-weight: lighter;
+        }
+        p {
+            margin: 2vw 23vw 0 0;
+            font-size: 1.5vw;
+        }
+    }
+    .title-div-1, .title-div-2, .title-div-3, .title-div-4 {
+        .twoh4 {
+            display: flex;
+            .firstp {
+                margin-right: 10vw;
+                padding-top: 2vw;
+                text-decoration: none;
+                color: $color_txt;
+                &:hover {
+                    color: $color_txt_hover;
+                    box-shadow: 0 -3px 0 $color_txt_hover;
+                }
+            }
+            .secondp {
+                margin-right: 20vw;
+                padding-top: 2vw;
+                text-decoration: none;
+                color: $color_txt;
+                &:hover {
+                    color: $color_txt_hover;
+                    box-shadow: 0 -3px 0 $color_txt_hover;
+                }
+            }
+        }
+        h3 {
+            font-family: 'Canela', Georgia, serif;
+            font-weight: lighter;
+            font-size: 6vw;
+            margin-right: 45vw;
+        }
+        img {
+            height: 34vw;
+            width: 41vw;
+        }
+    }
+    .title-div-2 {
+        grid-row-start: 2;
+        grid-column-start: 2;
+    }
+    .title-div-3 {
+        grid-row-start: 3;
+    }
+    .title-div-4 {
+        grid-row-start: 4;
+        grid-column-start: 2;
+    }
+    .containerwin {
+        p {
+            color: $optional_color;
+            margin-right: 15vw;
+            font-size: 1.5vw;
+        }
+    }
+    .brand {
+        display: flex;
+        justify-content: center;
+        img {
+            width: 20vw;
+            height: 6vw;
+            padding: 10vw;
+        }
+    }
+    .card {
+        box-shadow: 10px 10px #9a9a9a;
+        background-color: #FAFAFA;
+        color: #575655;
+        margin: 0 6vw;
+        h3 {
+            text-align: center;
+            padding-top: 5vw;
+            font-family: 'Canela', Georgia, serif;
+            font-size: 4vw;
+            font-weight: lighter;
+        }
+        p {
+            text-align: center;
+        }
+        .cardbutton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5vw 0;
+        }
+    }
+    .blackcontainer {
+        margin-top: 10vw;
+        background-color: #0C0B0B;
+        color: $border_form;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        h2 {
+            font-family: 'Canela', Georgia, serif;
+        }
+        p {
+            color: white;
+            opacity: 50%;
+        }
+    }
+}
+
+/* .gridprova {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+} */

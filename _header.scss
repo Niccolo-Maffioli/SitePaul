@@ -1,0 +1,53 @@
+:root {
+    --logo: rgb(226, 226, 226);
+    --nav-links-a: rgb(226, 226, 226);
+}
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    margin-top: 1.3rem;
+    margin-left: 2.7rem;
+}
+  
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 2.7rem;
+}
+  
+.nav-links li {
+    list-style: none;
+}
+  
+.nav-links a {
+    color: var(--nav-links-a);
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: 'Object Sans', Georgia, serif;
+    color: $color_txt;
+    opacity: 50%;
+    padding: 0 1.2rem;
+    &:hover {
+      opacity: 100%;
+      margin: 0 1.2rem;
+      padding: 0 0 1.5vw 0 !important;
+      border-bottom: 2px solid $color_txt_hover;
+    }
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer
+}
+
+.active {
+  margin: 0 1.2rem;
+  padding: 0 0 1.5vw 0 !important;
+  opacity: 100% !important;
+  border-bottom: 2px solid $color_txt_hover;
+}

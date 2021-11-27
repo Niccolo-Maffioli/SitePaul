@@ -1,0 +1,113 @@
+.maincontact {
+    margin-right: 8vw;
+    margin-left: 8vw;
+    .divcontact1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h2 {
+            font-size: 10vw;
+            font-family: 'Canela', Georgia, serif;
+            font-weight: lighter;
+        }
+        .paragraph1 {
+            font-family: 'Object Sans', Georgia, serif;
+            text-align: center;
+            line-height: 2.5vw;
+            font-size: 1.5vw;
+        }
+        .serandjob {
+            margin-top: 3vw;
+        }
+    }
+    .formcontainer1 {
+        margin: 40vw 0 0 17vw;
+        /* justify-content: center;
+        align-items: center;
+        flex-direction: column; */
+        .form {
+            margin-top: 5vw;
+            border-bottom: 1px solid $border_form;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            outline: none;
+            overflow: hidden;
+            width: 50vw;
+            color: $border_form;
+            font-size: 2vw;
+            padding: 1vw 0;
+        }
+        ::placeholder {
+            color: $border_form;
+        }
+    }
+    .containercont {
+        margin-left: 13vw;
+        margin-top: 10vw;
+        .containerph3 {
+            display: flex;
+            flex-direction: column;
+            padding: 4vw;
+            p {
+                font-family: 'Object Sans', Georgia, serif;
+                color: $color_txt_hover;
+                font-size: 1.5vw;
+                margin-bottom: 4vw;
+            }
+            h3 {
+                text-align: left;
+                color: $color_txt;
+                font-weight: lighter;
+                font-family: 'Canela', Georgia, serif;
+                font-size: 4vw;
+                margin-left: 2vw;
+            }
+        }
+    }
+    .containermessage {
+        margin-top: 8vw;
+        margin-left: 17vw;
+        .containersend {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            p {
+                font-family: 'Object Sans', Georgia, serif;
+            }
+            .sendmesp1 {
+                color: $color_txt_hover;
+                font-size: 1.5vw;
+            }
+            .sendmesp2 {
+                color: $optional_color;
+                font-size: 1.8vw;
+                margin-right: 17vw;
+            }
+        }
+        .sendmessage {
+            .form {
+                margin-top: 5vw;
+                border-bottom: 1px solid $border_form;
+                border-top: none;
+                border-right: none;
+                border-left: none;
+                outline: none;
+                overflow: hidden;
+                width: 50vw;
+                color: $border_form;
+                font-size: 2vw;
+                padding: 1vw 0;
+            }
+            ::placeholder {
+                color: $border_form;
+            }
+        }
+        .sendarequest {
+            margin-top: 8vw;
+            margin-left: 25vw;
+        }
+    }
+}

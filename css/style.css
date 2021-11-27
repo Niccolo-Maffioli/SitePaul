@@ -1,0 +1,734 @@
+/* -------------------------------------------------------------------------- */
+/*                              importo file scss                             */
+/* -------------------------------------------------------------------------- */
+body {
+  background-color: white;
+  margin: 0 !important;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Object-Sans */
+@font-face {
+  font-family: "Object Sans Slanted";
+  src: url("fonts/Object-Sans/ObjectSans-Slanted.woff2") format("woff2"), url("fonts/Object-Sans/ObjectSans-Slanted.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Object Sans";
+  src: url("fonts/Object-Sans/ObjectSans-HeavySlanted.woff2") format("woff2"), url("fonts/Object-Sans/ObjectSans-HeavySlanted.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Object Sans";
+  src: url("fonts/Object-Sans/ObjectSans-Medium.woff2") format("woff2"), url("fonts/Object-Sans/ObjectSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Object Sans";
+  src: url("fonts/Object-Sans/ObjectSans-Regular.woff2") format("woff2"), url("fonts/Object-Sans/ObjectSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Object Sans";
+  src: url("fonts/Object-Sans/ObjectSans-Light.woff2") format("woff2"), url("fonts/Object-Sans/ObjectSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Object Sans";
+  src: url("fonts/Object-Sans/ObjectSans-Heavy.woff2") format("woff2"), url("fonts/Object-Sans/ObjectSans-Heavy.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Object Sans";
+  src: url("fonts/Object-Sans/ObjectSans-Bold.woff2") format("woff2"), url("fonts/Object-Sans/ObjectSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Object Sans";
+  src: url("fonts/Object-Sans/ObjectSans-Thin.woff2") format("woff2"), url("fonts/Object-Sans/ObjectSans-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+/* Canela */
+@font-face {
+  font-family: "Canela";
+  src: url("fonts/Canela/Canela-BlackItalic.woff2") format("woff2"), url("fonts/Canela/Canela-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Canela";
+  src: url("fonts/Canela/Canela-LightItalic.woff2") format("woff2"), url("fonts/Canela/Canela-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Canela";
+  src: url("fonts/Canela/Canela-Light.woff2") format("woff2"), url("fonts/Canela/Canela-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Canela";
+  src: url("fonts/Canela/Canela-RegularItalic.woff2") format("woff2"), url("fonts/Canela/Canela-RegularItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Canela";
+  src: url("fonts/Canela/Canela-Black.woff2") format("woff2"), url("fonts/Canela/Canela-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Canela";
+  src: url("fonts/Canela/Canela-Regular.woff2") format("woff2"), url("fonts/Canela/Canela-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Canela";
+  src: url("fonts/Canela/Canela-Medium.woff2") format("woff2"), url("fonts/Canela/Canela-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Canela";
+  src: url("fonts/Canela/Canela-Thin.woff2") format("woff2"), url("fonts/Canela/Canela-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Canela";
+  src: url("fonts/Canela/Canela-ThinItalic.woff2") format("woff2"), url("fonts/Canela/Canela-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Canela";
+  src: url("fonts/Canela/Canela-MediumItalic.woff2") format("woff2"), url("fonts/Canela/Canela-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Canela";
+  src: url("fonts/Canela/Canela-Bold.woff2") format("woff2"), url("fonts/Canela/Canela-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Canela";
+  src: url("fonts/Canela/Canela-BoldItalic.woff2") format("woff2"), url("fonts/Canela/Canela-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+.mainabout {
+  /* margin-right: 6rem; */
+  font-family: "Object Sans", Georgia, serif;
+}
+.mainabout .container-img-win {
+  display: flex;
+  flex-direction: column;
+  margin-top: 23.5vw;
+  font-size: 1.5vw;
+}
+.mainabout .container-img-win .img-win-1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5vw;
+}
+.mainabout .container-img-win .img-win-1 img {
+  width: 55vw;
+  height: 35vw;
+}
+.mainabout .container-img-win .img-win-1 p {
+  margin: 1.2vw 0 0 0;
+  opacity: 50%;
+}
+.mainabout .container-img-win .img-win-2 {
+  display: flex;
+  flex-direction: column;
+  margin: 3.75vw 0 23.5vw 25vw;
+}
+.mainabout .container-img-win .img-win-2 img {
+  width: 55vw;
+  height: 35vw;
+}
+.mainabout .container-img-win .img-win-2 p {
+  margin: 1.2vw 0 0 0;
+  opacity: 50%;
+}
+.mainabout .container-pandimg {
+  display: flex;
+  margin: 6vw 6vw 6vw 6vw;
+  font-family: "Object Sans", Georgia, serif;
+  line-height: 1.8vw;
+}
+.mainabout .container-pandimg .immagine {
+  height: 35vw;
+  width: 30vw;
+}
+.mainabout .container-pandimg p {
+  margin: 3vw 3vw 0 0;
+  font-size: 1.5vw;
+}
+.mainabout .see {
+  margin-left: 6vw;
+}
+.mainabout .sliderimg {
+  margin: 12vw 0 0 0 !important;
+  display: flex;
+}
+.mainabout .sliderimg img {
+  width: 30vw;
+}
+.mainabout .title1 h2 {
+  margin-left: 45vw;
+}
+.mainabout .container0 {
+  display: flex;
+  font-family: "Object Sans", Georgia, serif;
+  margin-left: 12vw;
+}
+.mainabout .container0 .container1 p {
+  font-family: "Object Sans", Georgia, serif;
+  color: #F84D35;
+}
+.mainabout .container0 .container1 .conth4span {
+  width: 19vw;
+}
+.mainabout .container0 .container1 .conth4span span {
+  color: #F84D35;
+  margin-right: 1.2vw;
+}
+.mainabout .container0 .container2 {
+  font-family: "Object Sans", Georgia, serif;
+  display: flex;
+  flex-direction: column;
+  margin-left: 14.5vw;
+}
+.mainabout .container0 .container2 img {
+  height: 10vw;
+  width: 17.5vw;
+}
+.mainabout .container0 .container2 .loghi {
+  display: flex;
+}
+.mainabout .container0 .container2 p {
+  font-size: 1.7vw;
+}
+.mainabout .publick-speaking {
+  margin-bottom: 11vw;
+}
+.mainabout .publick-speaking h1 {
+  font-size: 12vw;
+  margin: 7vw 0 7vw 0;
+  font-family: "Canela", Georgia, serif;
+  font-weight: lighter;
+}
+.mainabout .publick-speaking p {
+  margin: 2vw 23vw 0 0;
+  font-size: 1.5vw;
+}
+.mainabout .title-div-1 .twoh4, .mainabout .title-div-2 .twoh4, .mainabout .title-div-3 .twoh4, .mainabout .title-div-4 .twoh4 {
+  display: flex;
+}
+.mainabout .title-div-1 .twoh4 .firstp, .mainabout .title-div-2 .twoh4 .firstp, .mainabout .title-div-3 .twoh4 .firstp, .mainabout .title-div-4 .twoh4 .firstp {
+  margin-right: 10vw;
+  padding-top: 2vw;
+  text-decoration: none;
+  color: #0C0B0B;
+}
+.mainabout .title-div-1 .twoh4 .firstp:hover, .mainabout .title-div-2 .twoh4 .firstp:hover, .mainabout .title-div-3 .twoh4 .firstp:hover, .mainabout .title-div-4 .twoh4 .firstp:hover {
+  color: #F84D35;
+  box-shadow: 0 -3px 0 #F84D35;
+}
+.mainabout .title-div-1 .twoh4 .secondp, .mainabout .title-div-2 .twoh4 .secondp, .mainabout .title-div-3 .twoh4 .secondp, .mainabout .title-div-4 .twoh4 .secondp {
+  margin-right: 20vw;
+  padding-top: 2vw;
+  text-decoration: none;
+  color: #0C0B0B;
+}
+.mainabout .title-div-1 .twoh4 .secondp:hover, .mainabout .title-div-2 .twoh4 .secondp:hover, .mainabout .title-div-3 .twoh4 .secondp:hover, .mainabout .title-div-4 .twoh4 .secondp:hover {
+  color: #F84D35;
+  box-shadow: 0 -3px 0 #F84D35;
+}
+.mainabout .title-div-1 h3, .mainabout .title-div-2 h3, .mainabout .title-div-3 h3, .mainabout .title-div-4 h3 {
+  font-family: "Canela", Georgia, serif;
+  font-weight: lighter;
+  font-size: 6vw;
+  margin-right: 45vw;
+}
+.mainabout .title-div-1 img, .mainabout .title-div-2 img, .mainabout .title-div-3 img, .mainabout .title-div-4 img {
+  height: 34vw;
+  width: 41vw;
+}
+.mainabout .title-div-2 {
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+.mainabout .title-div-3 {
+  grid-row-start: 3;
+}
+.mainabout .title-div-4 {
+  grid-row-start: 4;
+  grid-column-start: 2;
+}
+.mainabout .containerwin p {
+  color: #9A9A9A;
+  margin-right: 15vw;
+  font-size: 1.5vw;
+}
+.mainabout .brand {
+  display: flex;
+  justify-content: center;
+}
+.mainabout .brand img {
+  width: 20vw;
+  height: 6vw;
+  padding: 10vw;
+}
+.mainabout .card {
+  box-shadow: 10px 10px #9a9a9a;
+  background-color: #FAFAFA;
+  color: #575655;
+  margin: 0 6vw;
+}
+.mainabout .card h3 {
+  text-align: center;
+  padding-top: 5vw;
+  font-family: "Canela", Georgia, serif;
+  font-size: 4vw;
+  font-weight: lighter;
+}
+.mainabout .card p {
+  text-align: center;
+}
+.mainabout .card .cardbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw 0;
+}
+.mainabout .blackcontainer {
+  margin-top: 10vw;
+  background-color: #0C0B0B;
+  color: #E1E1E1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.mainabout .blackcontainer h2 {
+  font-family: "Canela", Georgia, serif;
+}
+.mainabout .blackcontainer p {
+  color: white;
+  opacity: 50%;
+}
+
+/* .gridprova {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+} */
+.servicesmain {
+  margin-left: 0;
+}
+.servicesmain p {
+  font-family: "Object Sans", Georgia, serif;
+}
+.servicesmain h1 {
+  margin-left: 8vw !important;
+}
+.servicesmain .introservice {
+  margin: 0 20vw 0 8vw !important;
+}
+.servicesmain .introservice .end {
+  margin-top: 7vw;
+}
+.servicesmain .introservice .bold {
+  font-weight: 500;
+}
+.servicesmain .introservice p {
+  margin: 4vw 0;
+}
+.servicesmain .part {
+  margin-top: 15vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.servicesmain .part h2 {
+  margin: 3vw 0 40vw 0 !important;
+}
+.servicesmain .part p {
+  margin: 0 20vw;
+}
+.servicesmain .part h3 {
+  font-family: "Canela", Georgia, serif;
+  font-weight: lighter;
+  font-size: 5vw;
+}
+.servicesmain .card {
+  box-shadow: 10px 10px #9a9a9a;
+  background-color: #FAFAFA;
+  color: #575655;
+}
+.servicesmain .card h3 {
+  text-align: center;
+  padding-top: 5vw;
+  font-family: "Canela", Georgia, serif;
+  font-size: 4vw;
+  font-weight: lighter;
+}
+.servicesmain .card p {
+  font-family: "Object Sans", Georgia, serif;
+  text-align: center;
+}
+.servicesmain .card .cardbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw 0;
+}
+.servicesmain .blackcontainer {
+  margin-top: 10vw;
+  background-color: #0C0B0B;
+  color: #E1E1E1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.servicesmain .blackcontainer h2 {
+  font-family: "Canela", Georgia, serif;
+}
+.servicesmain .blackcontainer p {
+  color: white;
+  opacity: 50%;
+}
+
+:root {
+  --logo: rgb(226, 226, 226);
+  --nav-links-a: rgb(226, 226, 226);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  margin-top: 1.3rem;
+  margin-left: 2.7rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 2.7rem;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: var(--nav-links-a);
+  text-decoration: none;
+  font-size: 1.5vw;
+  font-family: "Object Sans", Georgia, serif;
+  color: #0C0B0B;
+  opacity: 50%;
+  padding: 0 1.2rem;
+}
+.nav-links a:hover {
+  opacity: 100%;
+  margin: 0 1.2rem;
+  padding: 0 0 1.5vw 0 !important;
+  border-bottom: 2px solid #F84D35;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.active {
+  margin: 0 1.2rem;
+  padding: 0 0 1.5vw 0 !important;
+  opacity: 100% !important;
+  border-bottom: 2px solid #F84D35;
+}
+
+.maincontact {
+  margin-right: 8vw;
+  margin-left: 8vw;
+}
+.maincontact .divcontact1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.maincontact .divcontact1 h2 {
+  font-size: 10vw;
+  font-family: "Canela", Georgia, serif;
+  font-weight: lighter;
+}
+.maincontact .divcontact1 .paragraph1 {
+  font-family: "Object Sans", Georgia, serif;
+  text-align: center;
+  line-height: 2.5vw;
+  font-size: 1.5vw;
+}
+.maincontact .divcontact1 .serandjob {
+  margin-top: 3vw;
+}
+.maincontact .formcontainer1 {
+  margin: 40vw 0 0 17vw;
+  /* justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+}
+.maincontact .formcontainer1 .form {
+  margin-top: 5vw;
+  border-bottom: 1px solid #E1E1E1;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  overflow: hidden;
+  width: 50vw;
+  color: #E1E1E1;
+  font-size: 2vw;
+  padding: 1vw 0;
+}
+.maincontact .formcontainer1 ::-moz-placeholder {
+  color: #E1E1E1;
+}
+.maincontact .formcontainer1 :-ms-input-placeholder {
+  color: #E1E1E1;
+}
+.maincontact .formcontainer1 ::placeholder {
+  color: #E1E1E1;
+}
+.maincontact .containercont {
+  margin-left: 13vw;
+  margin-top: 10vw;
+}
+.maincontact .containercont .containerph3 {
+  display: flex;
+  flex-direction: column;
+  padding: 4vw;
+}
+.maincontact .containercont .containerph3 p {
+  font-family: "Object Sans", Georgia, serif;
+  color: #F84D35;
+  font-size: 1.5vw;
+  margin-bottom: 4vw;
+}
+.maincontact .containercont .containerph3 h3 {
+  text-align: left;
+  color: #0C0B0B;
+  font-weight: lighter;
+  font-family: "Canela", Georgia, serif;
+  font-size: 4vw;
+  margin-left: 2vw;
+}
+.maincontact .containermessage {
+  margin-top: 8vw;
+  margin-left: 17vw;
+}
+.maincontact .containermessage .containersend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.maincontact .containermessage .containersend p {
+  font-family: "Object Sans", Georgia, serif;
+}
+.maincontact .containermessage .containersend .sendmesp1 {
+  color: #F84D35;
+  font-size: 1.5vw;
+}
+.maincontact .containermessage .containersend .sendmesp2 {
+  color: #9A9A9A;
+  font-size: 1.8vw;
+  margin-right: 17vw;
+}
+.maincontact .containermessage .sendmessage .form {
+  margin-top: 5vw;
+  border-bottom: 1px solid #E1E1E1;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  overflow: hidden;
+  width: 50vw;
+  color: #E1E1E1;
+  font-size: 2vw;
+  padding: 1vw 0;
+}
+.maincontact .containermessage .sendmessage ::-moz-placeholder {
+  color: #E1E1E1;
+}
+.maincontact .containermessage .sendmessage :-ms-input-placeholder {
+  color: #E1E1E1;
+}
+.maincontact .containermessage .sendmessage ::placeholder {
+  color: #E1E1E1;
+}
+.maincontact .containermessage .sendarequest {
+  margin-top: 8vw;
+  margin-left: 25vw;
+}
+
+main h1 {
+  font-family: "Canela", Georgia, serif;
+  font-size: 12vw;
+  font-weight: lighter;
+}
+main h2 {
+  font-size: 12vw;
+  margin: 7vw 0 3vw 0;
+  font-family: "Canela", Georgia, serif;
+  font-weight: lighter;
+}
+main h4 {
+  font-family: "Canela", Georgia, serif;
+  font-size: 3vw;
+  font-weight: lighter;
+}
+main .red {
+  color: #F84D35;
+}
+main .prince h1 {
+  margin-bottom: 5vw;
+}
+main .prince p {
+  font-size: 2vw;
+  margin: 0 0 5vw 0;
+  font-family: "Canela", Georgia, serif;
+  font-weight: lighter;
+}
+main .title {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+}
+main .title h1 {
+  font-size: 12vw;
+  margin: 7vw 0 3vw 17vw;
+  font-family: "Canela", Georgia, serif;
+  font-weight: lighter;
+}
+main .title p {
+  font-size: 2vw;
+  margin: 0 0 3vw 0;
+  font-family: "Canela", Georgia, serif;
+  font-weight: lighter;
+}
+main .serandjob1 {
+  margin: 4vw 0 0 33vw;
+}
+main .serandjob .ser {
+  margin-right: 2vw;
+}
+main .serandjob .job {
+  margin-left: 2vw;
+}
+main .serandjob a {
+  text-decoration: none;
+  color: #0C0B0B;
+  box-shadow: 0 2px 0 #F84D35;
+  font-size: 1.5vw;
+  padding-bottom: 1.5vw;
+  font-family: "Object Sans", Georgia, serif;
+}
+main .serandjob a:hover {
+  color: #F84D35;
+  box-shadow: 0 4px 0 #F84D35;
+}
+
+.mainhome {
+  margin-left: 8vw;
+}
+
+footer {
+  margin-top: 9vw;
+}
+footer .footercontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2.7rem;
+}
+footer .footercontainer p {
+  font-size: 1vw;
+  font-family: "Object Sans", Georgia, serif;
+}
+footer .footercontainer .sv {
+  opacity: 50%;
+}
+footer .footercontainer .socialcontainer {
+  font-size: 2vw;
+}
+footer .footercontainer .socialcontainer i {
+  padding: 0 1.2rem;
+  color: #F84D35;
+}
+
+.footerabout {
+  background-color: #0C0B0B;
+  padding: 3vw;
+  color: white;
+  margin: 0 !important;
+}
+.footerabout p {
+  opacity: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  footer .footercontainer .sv {
+    opacity: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

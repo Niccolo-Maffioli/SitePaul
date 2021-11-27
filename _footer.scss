@@ -1,0 +1,43 @@
+footer {
+    margin-top: 9vw;
+    .footercontainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 2.7rem;
+        p {
+            font-size: 1vw;
+            font-family: 'Object Sans', Georgia, serif;
+        }
+        .sv {
+            opacity: 50%;
+        }
+        .socialcontainer {
+            font-size: 2vw;
+            i {
+                padding: 0 1.2rem;
+                color: $color_txt_hover;
+            }
+        }
+    }
+}
+
+.footerabout {
+    background-color: $another_color;
+    padding: 3vw;
+    color: white;
+    margin: 0 !important;
+    p {
+        opacity: 50%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    footer {
+        .footercontainer {
+            .sv {
+                opacity: 100%;
+            }
+        }
+    }
+}
